@@ -1,0 +1,304 @@
+/*RESET CSS*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background: #D9D9D9;
+	font-family: "Single Day", cursive;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*FIN RESET CSS*/
+
+main{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+h1{
+	font-size: 128px;
+	font-family: 'aqua_wowregular';
+	color: #B0A4EB;
+	-webkit-text-stroke: 3px #000;
+	margin-block: 50px;
+}
+
+h3{
+font-size: 26px;
+font-weight: 800;	
+margin-top: 55px;
+}
+
+.title{
+	font-size: 128px;
+	font-family: 'aqua_wowregular';
+	color: #B0A4EB;
+	-webkit-text-stroke: 3px #000;
+}
+
+#header{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#pricing{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background: #695DA5;
+	width: 100%;
+	padding-block: 60px;
+}
+
+#plan{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-betweenp;
+	width: 1500px;
+}
+
+.offer{
+	background: url(../img/bg-box.png);
+	background-repeat: no-repeat;
+	width: 471px;
+	border-radius: 12px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 10px;
+	height: 425px;
+	margin-inline: 15px;
+}
+
+.offer-info{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.offer h2{
+	font-size: 40px;
+	font-weight: 900;
+	color: #695DA5;
+
+}
+
+.offer p {
+font-size: 26px;
+font-weight: 700;
+}
+
+.cup-img{
+	position: relative;
+	top: -50px;
+}
+
+#Wallet {
+    width: 100%;
+    background: #695DA5;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#btn-connect{
+color: #fff;
+font-weight: 700;
+font-family: "Single Day", cursive;
+font-size: 24px;
+background: #7D70BA;
+border: 4px solid #000000;
+box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.25);
+border-radius: 9px;
+padding-block: 15px;
+padding-inline: 15px;
+margin-right: 220px;
+margin-bottom: 120px;
+
+}
+
+
+#claim{
+	background: #695DA5;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	padding-block: 60px;
+}
+
+#content-claim {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 1500px;
+    justify-content: center;
+}
+
+#content-claim #text {
+	max-width: 600px;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+#content-claim p {
+	font-size: 26px;
+	font-weight: 700;
+	margin-right: 50px;
+	line-height: 36px;
+}
+
+#content-claim button{
+	color: #fff;
+	font-weight: 700;
+	font-family: "Single Day", cursive;
+	font-size: 24px;
+	background: #7D70BA;
+	border: 4px solid #000000;
+	border-radius: 12px;
+	box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.25);
+	padding-inline: 15px;
+	padding-block: 5px;
+	margin-block: 15px;
+	margin-block: 35px;
+}
+
+#dapp{
+	background: #695DA5;
+	width: 100%;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 300px;
+
+}
+
+#dapp a{
+
+color: #fff;
+font-weight: 700;
+font-size: 26px;
+text-decoration: none;
+padding-inline: 50px;
+padding-block: 15px;
+background: #7D70BA;
+border: 4px solid #000000;
+box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.25);
+border-radius: 50px;
+
+}
+
+.mute-button {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 9999; 
+  font-size: 45px;
+  color: white;
+}
+
+.mute-button:focus {
+  outline: none; 
+}
+
+#drank{
+	background: url(../img/bg-box.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 75px;
+}
+
+
+@media screen and (max-width: 800px) {
+	#plan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#content-claim {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    justify-content: center;
+}
+
+.title {
+    font-size: 80px;
+    font-family: 'aqua_wowregular';
+    color: #B0A4EB;
+    -webkit-text-stroke: 3px #000;
+}
+
+.offer {
+    background: url(../img/bg-box.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 350px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+    height: 425px;
+    margin-inline: 15px;
+}
+
+#plan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+}
+}
